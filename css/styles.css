@@ -1,0 +1,48 @@
+/* master */
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+/* global css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #16465A;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: nav;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 125px;
+}
+
+li:hover {
+  background-color: #226886;
+  transition: .05s ease-in;
+}
+
+.nav a {
+    padding: 0px;
+    display: block;
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+
+.topNav {
+    background-color: grey;
+    padding: 50px;
+}
