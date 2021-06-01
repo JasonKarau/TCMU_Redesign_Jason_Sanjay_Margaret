@@ -6,23 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twin Cities Musicians Union</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <div class="topNav">
-        test
+    <div class="topNav" id="home">
+        <div class="">
+            <img src="images/logo.png" class="logo" alt="">
+            <button class="right">Register With AFM</button>
+            <button class="right">Member Login</button>
+            <input type="text" class="search" placeholder="Search">
+        </div>
+        <a class="topNavSecA" href="#">
+            <li class="topNavSec">About Us</li>
+        </a>
+
+        <a class="topNavSecA" href="#">
+            <li class="topNavSec">Members Green Room</li>
+        </a>
+
+        <a class="topNavSecA" href="#">
+            <li class="topNavSec">Contact</li>
+        </a>
+
     </div>
 
     <nav class="nav">
-        <a href="#" class="active-item">
+        <a href="#home" class="active-item">
           <li>Home</li>
+        </a>
+        <a href="#market">
+            <li>Bookings</li>
         </a>
         <a href="#">
             <li>Around the Union</li>
-        </a>
-        <a href="#">
-            <li>Live Music Marketplace</li>
         </a>
         <a href="#">
             <li>Youth Opportunities</li>
@@ -32,7 +50,50 @@
         </a>
     </nav>
 
-    <div>body</div>
+    <section class="container">
+        <div class="hero heroLeft">
+            <h1>WE Are TCMU</h1>
+            <p>
+                Welcome, and thank you for your interest in The Twin Cities Musicians Union, Local 30-73 of the American Federation of Musicians of the United States and Canada. 
+                <br><br>
+                TCMU represents professional musicians in Minneapolis and St. Paul, Minnesota, and surrounding areas.
+            </p>
+
+            <button class="heroButton">Learn More &#8594;</button>
+        </div>
+
+        <div class="hero heroRight">
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide" style="width: 20%"><img src="images/sliderimg/1.png" alt="" class="sliderImg"></li>
+                        <li class="splide__slide"><img src="images/sliderimg/2.png" alt="" class="sliderImg"></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="content">
+        <div id="market">
+            <h1 style="margin-top: 100px;">LIVE MUSIC MARKETPLACE</h1>
+            <p>Looking for live music for an event? You’ve come to the right place. 
+                The musicians and ensembles on this page are all staffed by members of the Twin Cities Musicians Union, local 30-73 of the American Federation of Musicians. 
+                They all have top quality skill, and experience that is second to none.
+                <br><br>
+                Posted below are some of our featured Union members. 
+                To explore a group further, contact them directly. 
+                If they have a web site, click the web site link to go directly to their site.
+                <br><br>
+                Thank you for considering union entertainment for your event!</p>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>
