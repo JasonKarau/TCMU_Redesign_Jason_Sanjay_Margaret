@@ -635,6 +635,10 @@ body { -webkit-animation:fadein 0.5s; animation:fadein 0.5s }
         display: none;
     }
 
+    .topNav {
+        padding: 45px;
+    }
+
     .topNavSec {
         display: none;
     }
@@ -661,7 +665,7 @@ body { -webkit-animation:fadein 0.5s; animation:fadein 0.5s }
 
     .logo {
         right: 20px;
-        top: 30px;
+        top: 5px;
         display: flex;
         margin: 0;
         width: 150px;
@@ -758,7 +762,7 @@ body { -webkit-animation:fadein 0.5s; animation:fadein 0.5s }
     .toggle-button .bar {
         position: absolute;
         height: 3px;
-        top: 60px;
+        top: 30px;
         left: 20px;
         width: 6%;
         background-color: white;
@@ -767,11 +771,11 @@ body { -webkit-animation:fadein 0.5s; animation:fadein 0.5s }
     }
 
     .bar:nth-of-type(2) {
-        top: 70px;
+        top: 40px;
     }
 
     .bar:nth-of-type(3) {
-        top: 80px;
+        top: 50px;
     }
 
     footer {
@@ -802,12 +806,28 @@ body { -webkit-animation:fadein 0.5s; animation:fadein 0.5s }
     .projects {
         margin: 0;
     }
+
+    .marginFix {
+        margin: 0;
+    }
+
+    .yellowButton {
+        margin: 0;
+    }
+
+    .redButton {
+        margin: 0;
+    }
     
 }
 
 @media (max-width: 425px) {
     .toggle-button .bar {
         width: 10%;
+    }
+
+    .block {
+        padding: 20px 5px 20px 5px;
     }
 }
 
